@@ -1,0 +1,113 @@
+#home{
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+input{
+	pointer-events:auto;
+	text-align: center;
+}
+body{
+	font-family: Montserrat,sans-serif;
+	padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+	background-color: #00FFFF;
+    text-align: left;
+}
+.navbar{
+	vertical-align: top;
+	text-align: left;
+	background-color: #00FFFF;
+}
+
+
+.text{
+	padding-top: 80px;
+	text-align: center;
+	padding-bottom: 200px;
+	background-color: #00BFFF;
+}
+
+h2{
+	color: white;
+	font-size: 20px;
+	font-weight: 1;
+	padding-right: 30px;
+	display: inline-block;
+	
+}
+
+.roww{
+	height: 30px;
+	padding-left: auto;
+	padding-right: auto;
+	vertical-align: middle;
+	pointer-events: none;
+	
+}
+button:hover{
+	background-color: white;
+	color: black;
+}
+button {
+	pointer-events:auto;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #3b99e0;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Montserrat",sans-serif;
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    box-sizing: border-box;
+    font-family: inherit;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    cursor: pointer;
+    padding: 6px 16px;
+    margin: 33px;
+}
+
+#maain{
+	text-align: center;
+}
