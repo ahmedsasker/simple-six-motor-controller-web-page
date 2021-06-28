@@ -32,4 +32,29 @@
 
 		$conn->close();
 	}
+
+	if($_POST['move']){
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "robot";
+		$m1 = $_POST['move'];
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+		  die("Connection failed: " . $conn->connect_error);
+		}
+
+		$sql = "INSERT INTO movement (direction)
+		VALUES ('$m1')";
+
+		if ($conn->query($sql) === TRUE) {
+		  echo "New record created successfully";
+		} else {
+		  echo "Error: " . $sql . "<br>" . $conn->error;
+		}
+
+		$conn->close();
+	}
 ?>
