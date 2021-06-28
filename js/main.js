@@ -23,13 +23,27 @@ function sendDataOn() {
             state:"on"
            },
            success:function(html) {
-             alert(html);
+             console.log(html);
            }
 
       });
       return false;
  }
 
+ function sendMovement(value){
+    $.ajax({
+           type: "POST",
+           url: 'sub.php',
+           data:{
+            move: value
+           },
+           success:function(html) {
+             console.log(html);
+           }
+
+      });
+      return false;
+ }
  function sendDataOff() {
       $.ajax({
           
@@ -45,7 +59,7 @@ function sendDataOn() {
             state:"off"
            },
            success:function(html) {
-            alert(html);
+            console.log(html);
            }
 
       });
