@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 22, 2021 at 02:07 PM
+-- Generation Time: Jun 28, 2021 at 06:16 PM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.7
 
@@ -72,7 +72,17 @@ INSERT INTO `data` (`id`, `m1`, `m2`, `m3`, `m4`, `m5`, `m6`, `state`) VALUES
 (66, 38, 57, 32, 61, 117, 164, 'on'),
 (67, 38, 57, 165, 122, 117, 164, 'on'),
 (68, 165, 165, 165, 171, 117, 164, 'off'),
-(69, 123, 90, 169, 159, 28, 35, 'on');
+(69, 123, 90, 169, 159, 28, 35, 'on'),
+(70, 90, 90, 90, 90, 90, 132, 'on'),
+(71, 90, 131, 90, 90, 90, 90, 'on'),
+(72, 90, 90, 90, 90, 90, 90, 'on'),
+(73, 90, 90, 90, 90, 90, 90, 'off'),
+(74, 90, 90, 90, 90, 90, 90, 'off'),
+(75, 90, 90, 90, 90, 90, 90, 'off'),
+(76, 90, 90, 90, 90, 90, 90, 'off'),
+(77, 180, 149, 17, 148, 125, 36, 'off'),
+(78, 90, 90, 90, 90, 90, 90, 'on'),
+(79, 90, 90, 90, 90, 90, 90, 'on');
 
 -- --------------------------------------------------------
 
@@ -101,7 +111,7 @@ ALTER TABLE `data`
 -- AUTO_INCREMENT for table `data`
 --
 ALTER TABLE `data`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=80;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
