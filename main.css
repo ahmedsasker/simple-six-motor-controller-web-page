@@ -5,6 +5,8 @@
 input{
 	pointer-events:auto;
 	text-align: center;
+	width: auto;
+	
 }
 body{
 	font-family: Montserrat,sans-serif;
@@ -48,6 +50,9 @@ h2{
 	vertical-align: middle;
 	pointer-events: none;
 	
+}
+.slider{
+    width: 300px;
 }
 button:hover{
 	background-color: white;
@@ -104,10 +109,79 @@ button {
     line-height: 1.5;
     border-radius: .3rem;
     cursor: pointer;
-    padding: 6px 16px;
-    margin: 33px;
+    margin: 5px;
+}
+
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#body{
+    display: flex;
+}
+#panel1{
+    flex: 50%;
+    align-items: center;
+}
+#panel2{
+    flex: 50%;
+    align-items: center;
 }
 
 #maain{
 	text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+    #body {
+        display: block;
+    }
+    #panel2{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #body {
+        display: block;
+    }
+    #panel2{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    button{
+        font-size: 15px;
+    }
+    .navbar{
+        display: grid;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .text{
+        padding-top: 20px;
+    }
+    ul{
+        padding: 1px;
+        margin: 1px;
+        float: unset;
+        text-align: center;
+    }
+    .slider{
+        width: auto;
+    }
+    .coll{
+        padding-bottom: 90px;
+        display: inline-block;
+    }
+    #panel2{
+        margin-top: 80px;
+    }
+    a{
+        font-size: small;
+    }
+    
 }
