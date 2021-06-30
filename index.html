@@ -105,6 +105,19 @@
 	<script type="text/javascript" src="js/jquery.js"> </script>
 	<script type="text/javascript" src="js/jquery-ui.js"> </script>
 	<script type="text/javascript" src="js/main.js"> </script>
+	<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "237d2ccf-e166-4cb4-9fc6-17aaaae8da32", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "f8f0bc43-13bb-4ca5-9ddb-6422874142b5", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
 </body>
 <footer>
 	<a href="get_robot_data.php">Raw data link</a>
